@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 public class CpuSinMonitor {
 
 	public static void main(String[] args) {
-		//获取系统CPU的核数ddd
+		//获取系统CPU的核数ddddfa
 		int cpuNum = Runtime.getRuntime().availableProcessors();
 		
 		ExecutorService threadPool = Executors.newFixedThreadPool(cpuNum);
